@@ -1,0 +1,39 @@
+body {
+    background-color: coral;
+}
+h3{
+    font-size: 25px !important;
+    
+}
+.btn-success:hover{
+    background: red;
+}
+@keyframes example {
+ from{  box-shadow : 5px 5px 5px rgb(0, 255, 255);}
+ to{  box-shadow : 5px 5px 5px lightblue;}
+
+}
+canvas{
+    animation-name : example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+h3{
+    font-size: 25px !important;
+    
+}
+.btn-success:hover{
+    background: red;
+}
+@keyframes example {
+ from{  box-shadow : 5px 5px 5px rgb(255, 34, 0);}
+ to{  box-shadow : 5px 5px 5px lightblue;}
+
+}
+canvas{
+    animation-name : example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 2px solid black
+}
